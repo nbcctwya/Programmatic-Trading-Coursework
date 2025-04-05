@@ -64,8 +64,8 @@ X_aapl, y_aapl = X_aapl.to(device), y_aapl.to(device)
 criterion = nn.MSELoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 
-training_epoch=5000
-fine_tuning_epoch=0
+training_epoch=500
+fine_tuning_epoch=50
 for epoch in range(training_epoch):
     model.train()
     optimizer.zero_grad()
