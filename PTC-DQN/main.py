@@ -4,8 +4,8 @@ from agent import DQNAgent
 from utils import load_data
 import numpy as np
 
-train_path = './data/train/000001.csv'
-test_path = './data/test/000001.csv'
+train_path = '../data/train/159609gfltETF.csv'
+test_path = '../data/test/159609gfltETF.csv'
 
 df_train = load_data(train_path)
 df_test = load_data(test_path)
